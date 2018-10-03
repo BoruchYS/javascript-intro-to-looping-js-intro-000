@@ -17,12 +17,12 @@ var i = 0;
 function incrementVariable() {
  i = i + 1;
 }
-
 do {
    incrementVariable();
 } while (i < 5);
+
 function doWhileLoop(array){
 
-
-array.pop();
-  while array.length > 0 && incrementVariable()}
+do{
+array.pop()}
+  while array.length > 0 && incrementVariable();
