@@ -12,17 +12,19 @@ function forLoop(array){
   }
   return array
 }
-var i = 0;
 
-function incrementVariable() {
- i = i + 1;
-}
-do {
-   incrementVariable();
-} while (i < 5);
 
 function doWhileLoop(array){
+  var i = 0;
 
+  function incrementVariable() {
+   i = i + 1;
+  }
+  do {
+     incrementVariable();
+  } while (i < 5);
+  
 do{
-array.pop()}
+array.pop()
+}
   while array.length > 0 && incrementVariable();
