@@ -19,15 +19,14 @@ function doWhileLoop(array){
     while array.length > 1 && incrementVariable()
   }
   var i = 0;
- 
+
 function incrementVariable() {
   i = i + 1;
 }
- 
+
 do {
   console.log("doo-bee-doo-bee-doo");
   incrementVariable();
 } while (i < 5);
 return array
 }
-
