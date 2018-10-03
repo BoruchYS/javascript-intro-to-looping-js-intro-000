@@ -14,19 +14,19 @@ function forLoop(array){
 }
 
 function doWhileLoop(array){
-  do{
-    array.pop()}
-    while array.length > 1 && incrementVariable()
-  }
   var i = 0;
 
 function incrementVariable() {
   i = i + 1;
-}
 
 do {
-  console.log("doo-bee-doo-bee-doo");
-  incrementVariable();
+    incrementVariable();
 } while (i < 5);
+
+  do{
+    array.pop()}
+    while array.length > 1 || incrementVariable()
+  }
+
 return array
 }
