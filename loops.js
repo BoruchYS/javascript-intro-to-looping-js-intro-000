@@ -20,6 +20,6 @@ function doWhileLoop(array){
  return i
 }
 
-do {array.splice(1, 0);}
+do {array.pop());}
  while array.length > 1 || incrementVariable() < 5;
 }
