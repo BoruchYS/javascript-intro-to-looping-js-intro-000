@@ -25,10 +25,11 @@ function doWhileLoop(array){
 
 
 do{
-array.pop()
+
 do {
    incrementVariable();
 } while (i < 5);
  }
+ array.pop()
 }
   while array.length > 0 && incrementVariable();
