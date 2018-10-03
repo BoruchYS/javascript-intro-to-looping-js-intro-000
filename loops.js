@@ -23,5 +23,5 @@ do {
     incrementVariable();
 } while (i < 5);
 do {array.splice(1, 0);}
- while array.length > 1 || incrementVariable()
+ while array.length > 1 || incrementVariable();
 }
