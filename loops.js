@@ -16,7 +16,8 @@ function doWhileLoop(array){
    var i = 0;
 
  function incrementVariable() {
- do {i = i + 1; return true}  while i < 5;
+ i = i + 1; 
+  do {incrementVariable(); return true} while i < 5;
 
   }
 
