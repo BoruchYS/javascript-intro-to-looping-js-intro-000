@@ -22,6 +22,6 @@ function doWhileLoop(array){
 do {
     incrementVariable();
 } while (i < 5);
-do {array.pop();}
+do {array.splice(1, 0);}
  while array.length > 1 || incrementVariable()
 }
