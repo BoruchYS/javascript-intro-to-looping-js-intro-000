@@ -18,7 +18,7 @@ var i = 0;
 
   do {i = i + 1;
     return true} while i < 5;
-
+ return false
   }
 
 do {array.pop()}
