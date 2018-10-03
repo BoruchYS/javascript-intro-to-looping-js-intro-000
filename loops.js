@@ -23,7 +23,7 @@ function doWhileLoop(array){
   do {
      incrementVariable();
   } while (i < 5);
-  
+
 do{
 array.pop()
 }
