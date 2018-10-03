@@ -7,9 +7,9 @@ function whileLoop(n) {
 }
 function forLoop(array) {
   for (i = 0; i < 25; i++){
-    array.unshift('I am $(i) strange loop$'
+    array.unshift 'I am $(i) strange loop$'
     (i === 1 ?
-      '' : 's'))
+      '' : 's') 
   }
   return array
 }
