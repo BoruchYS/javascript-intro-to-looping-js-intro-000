@@ -18,10 +18,17 @@ function doWhileLoop(array){
   var i = 0;
 
 
+  function incrementVariable() {
+   i = i + 1;
+  }
+  
+
 
 do{
 array.pop()
- i++
+do {
+   incrementVariable();
+} while (i < 5);
  }
 }
-  while array.length > 0 && i < 5;
+  while array.length > 0 && incrementVariable();
