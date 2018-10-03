@@ -16,12 +16,10 @@ function doWhileLoop(array){
    var i = 0;
 
  function incrementVariable() {
-  i = i + 1;
+ i = i + 1;
+ return i
 }
 
-do {
-    incrementVariable();
-} while (i < 5);
 do {array.splice(1, 0);}
- while array.length > 1 || incrementVariable();
+ while array.length > 1 || incrementVariable() < 5;
 }
