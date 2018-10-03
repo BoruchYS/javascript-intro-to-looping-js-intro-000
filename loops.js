@@ -13,23 +13,21 @@ function forLoop(array){
   return array
 }
 
-
 function doWhileLoop(array){
-  var i = 0;
-
-
-  function incrementVariable() {
-   i = i + 1;
+  do{
+    array.pop()}
+    while array.length > 1 && incrementVariable()
   }
-
-
-
-do{
-
-do {
-   incrementVariable();
-} while (i < 5);
- }
- array.pop()
+  var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
 }
-  while array.length > 0 && incrementVariable();
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+  incrementVariable();
+} while (i < 5);
+return array
+}
+
