@@ -13,7 +13,7 @@ function forLoop(array){
   return array
 }
 function doWhileLoop(array){
-var i = 0;
+ var i = 0;
  function incrementVariable() {
 
   do {i = i + 1;
