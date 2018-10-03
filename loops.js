@@ -17,14 +17,11 @@ function forLoop(array){
 function doWhileLoop(array){
   var i = 0;
 
-  function incrementVariable() {
-   i = i + 1;
-  }
-  do {
-     incrementVariable();
-  } while (i < 5);
+
 
 do{
 array.pop()
+ i++
+ }
 }
-  while array.length > 0 && incrementVariable();
+  while array.length > 0 && i < 5;
