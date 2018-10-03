@@ -13,13 +13,13 @@ function forLoop(array){
   return array
 }
 function doWhileLoop(array){
-
+var i = 0;
  function incrementVariable() {
  i = i + 1;
   do {return true} while i < 5;
 
   }
-var i = 0;
+
 do {array.pop()}
  while array.length > 1 || incrementVariable() ;
 }
