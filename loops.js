@@ -12,15 +12,18 @@ function forLoop(array){
   }
   return array
 }
-function doWhileLoop(array){
- var i = 0;
- function incrementVariable() {
+function doWhileLoop(array) {
+	var i = 0;
 
-  i = i + 1;
-  }
+	function incrementVariable() {
+		i = i + 1;
+	}
 
-do {array = array.slice(1);
-    incrementVariable()}
- while array.length > 0 && i < 5 ;
+	do {
+		console.log('array.length = ' + array.length + ' and i = ' + i);
+		array = array.slice(1);
+		incrementVariable();
+	} while (array.length > 0 && i < 5);
+
+	return array;
 }
-return array; }
