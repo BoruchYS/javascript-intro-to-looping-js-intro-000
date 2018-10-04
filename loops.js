@@ -23,3 +23,4 @@ do {array = array.slice(1);
     incrementVariable()}
  while array.length > 0 && i < 5 ;
 }
+return array; }
