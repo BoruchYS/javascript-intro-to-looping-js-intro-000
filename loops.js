@@ -19,6 +19,7 @@ function doWhileLoop(array){
   i = i + 1
   }
 
-do {array.pop()}
- while array.length > 0 && incrementVariable() ;
+do {array = array.slice(1);
+    incrementVariable()}
+ while array.length > 0 && i < 5 ;
 }
